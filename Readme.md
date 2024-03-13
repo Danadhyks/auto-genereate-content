@@ -1,28 +1,24 @@
-Text-to-Image Generator
-Script ini menggunakan layanan OpenAI API untuk menghasilkan gambar dari sebuah cerita atau deskripsi yang dimasukkan oleh pengguna.
+Automatic Video Generation from Python
+This project demonstrates how to generate a video automatically using Python. It utilizes the OpenAI API for text generation and image generation to create a video based on a given prompt or description.
 
-Persyaratan
+Installation
+Before running the code, make sure you have the necessary Python packages installed. You can install them using pip:
 
-Python 3.x
+bash
+Copy code
+pip install requests opencv-python
+You will also need an API key from OpenAI for both text and image generation. Replace chatgpt_api_key and dalle_api_key variables in the code with your own API keys.
 
-Paket opencv-python dan requests
+Usage
+Run the Python script generate_video.py.
+Enter the story or description when prompted.
+The script will then translate the text to English (if necessary), generate images based on the text using the OpenAI DALL-E model, and finally create a video from the generated images.
+Contributing
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Cara Menggunakan
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-python agc.py
+Contact
+For any questions or feedback regarding this project, feel free to contact Your Name.
 
-Dapatkan API key untuk layanan OpenAI. Untuk script ini, Anda memerlukan API key untuk model text-davinci-002 dan image-alpha-001.
-
-Jalankan script dengan menjalankan perintah python text_to_image.py di terminal atau command prompt.
-
-Masukkan cerita atau deskripsi dalam bahasa apapun.
-
-Script akan menerjemahkan cerita atau deskripsi ke dalam bahasa Inggris menggunakan layanan OpenAI API.
-
-Setelah itu, script akan menghasilkan gambar-gambar yang merepresentasikan cerita atau deskripsi tersebut menggunakan layanan OpenAI API.
-
-Terakhir, script akan menggabungkan gambar-gambar tersebut dan menghasilkan video dari gambar-gambar tersebut.
-
-Author Script ini dibuat oleh Ardan adhyaksa.
-
-jika banyak yang pakai akan saya update script ini
