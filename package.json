@@ -1,0 +1,25 @@
+{
+  "name": "auto-generate-video",
+  "version": "1.0.0",
+  "description": "An efficient tool for automatically generating videos using Python, leveraging OpenAI's text and image generation APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danadhyks/auto-generate-video.git"
+  },
+  "keywords": [
+    "agc"
+  ],
+  "author": "ardan adhyaksa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danadhyks/auto-generate-video/issues"
+  },
+  "homepage": "https://github.com/Danadhyks/auto-generate-video#readme",
+  "dependencies": {
+    "openai": "^4.28.4"
+  }
+}
